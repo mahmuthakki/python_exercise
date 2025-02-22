@@ -1,5 +1,7 @@
 import guessing_game
-
+''' In this file, I make a python script that generates a number between 1,100. Then, it takes an input from the user
+to compare the numbers. Finally, it wants user to change the number if it is too high or too low.
+'''
 user_guess= int(input("Guess a number:\n")) # Gets an input from user and convert it to an intiger
 
 number= guessing_game.guessing_game() # Generates a random number using guessing_game function
